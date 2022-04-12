@@ -118,7 +118,7 @@ public class IAState : MonoBehaviour
         _currentState.Move();
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         Gizmos.color = new Color(1, 0, 0, 0.3f);
         Gizmos.DrawSphere(transform.position, _followDistance);
@@ -127,5 +127,5 @@ public class IAState : MonoBehaviour
         Gizmos.DrawSphere(transform.position, _stopDistance);
 
 
-    }
+    }*/
 }
